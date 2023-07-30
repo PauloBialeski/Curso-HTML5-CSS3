@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: opx;
+    }
+    
+    div #espaco {
+    max-width: 350px;
+    max-height: 100%;
+}
+
+div#astronauta {
+    display: block;
+    margin: auto;
+}
