@@ -3,9 +3,8 @@
     padding: opx;
     }
     
-    div #espaco {
-    max-width: 350px;
-    max-height: 100%;
+    body {
+        background-image: url('../img/espaco.jpg');
 }
 
 div#astronauta {
