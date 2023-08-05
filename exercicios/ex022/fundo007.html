@@ -3,35 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronauta</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div id="astronauta">
-        <img src="img/astronauta.png" alt="astronauta">
-    </div>
+    <title>Alinhamento Vertical</title>
     <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
         #container {
-            background-image: url('img/espaco.jpg');
-            background-position: center center;
-            background-size: cover;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
             position: relative;
-            height: 100vh;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
         }
 
         #conteudo {
-            background-image: url('img/astronauta.png');
+            background-image: url('imagens/target001.png');
             background-size: 100% 100%;
+
             position: absolute;
-            height: 350px;
-            width: 350px;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
 
             left: 50%;
             top: 50%;
+
             transform: translate(-50%, -50%);
         }
     </style>
